@@ -1,7 +1,7 @@
 package day1
 
 import assert
-import readIntegerFileInput
+import readLines
 
 fun main() {
 
@@ -33,4 +33,10 @@ fun main() {
     println("Result of part 1= $part1Result")
     println("Result of part 2= $part2Result")
 
+}
+
+private fun readIntegerFileInput(name: String): List<Int> {
+    return readLines(name).map {
+        it.toInt()
+    }
 }

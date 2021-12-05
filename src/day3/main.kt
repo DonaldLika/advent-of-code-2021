@@ -1,5 +1,6 @@
 package day3
 
+import assert
 import readLines
 import kotlin.math.absoluteValue
 

@@ -1,5 +1,6 @@
 package day4
 
+import assert
 import readLines
 
 fun main() {

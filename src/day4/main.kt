@@ -24,7 +24,6 @@ fun main() {
     val part1Result = part1(input)
     val part2Result = part2(input)
 
-    // 6804
     println("Result of part 1= $part1Result")
     println("Result of part 2= $part2Result")
 

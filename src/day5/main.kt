@@ -51,8 +51,8 @@ data class Segment(val from: Point, val to: Point) {
         return Segment(to, from)
     }
 
-    fun withHorizontalPosition(x: Int) = Point(x, from.y)
-    fun withVerticalPosition(y: Int) = Point(from.x, y)
+    private fun withHorizontalPosition(x: Int) = Point(x, from.y)
+    private fun withVerticalPosition(y: Int) = Point(from.x, y)
 
     fun coveredPoints(): List<Point> = with(absoluteSegment()) {
         if (from.x == to.x) {
